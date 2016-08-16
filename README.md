@@ -1,5 +1,5 @@
 # 2359-iOS-Test
-These are the solutions for 2359(Singapore) iOS coding Test. It is done using Objective C and Java.
+These are the solutions for 2359(Singapore) iOS coding Test. It is done using Objective C (Playground file) and Java.
 
 ## Problems
 1. Implement the ATM machine algorithm that determines the combination of the least number of bills to serve when an amount is requested. Available bills are $50,$10,$5 and $1 i.e (given $87, the system returns $50,$10,$10,$10,$5,$1,$1). Also consider how well your implementation scales when a large number is given such as $2013
