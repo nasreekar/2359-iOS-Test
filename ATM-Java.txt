@@ -1,0 +1,39 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Abhijith Sreekar
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+        public static void main(String[] args) {
+	System.out.print("Enter Amt:");
+		Scanner scan = new Scanner(System.in);
+		int amt=scan.nextInt();
+		int num50=0,num10=0,num5=0,num1=0;
+		num50=amt/50;
+		amt=amt%50;
+		num10=amt/10;
+		amt=amt%10;
+		num5=amt/5;
+		amt=amt%5;
+		num1=amt/1;
+		amt=amt%1;
+		System.out.println("$50: "+num50);
+		System.out.println("$10: "+num10);
+		System.out.println("$5: "+num5);
+		System.out.println("$1: "+num1);
+	}
+}
